@@ -1,5 +1,8 @@
 <template>
-  <button v-on:click="count++">You clicked me {{ count }} times.</button>
+  <div>
+    <h3>You clicked {{ count }} times</h3>
+    <button v-on:click="count++">Click me</button>
+  </div>
 </template>
 
 <script>
